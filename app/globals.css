@@ -11,6 +11,43 @@
   --font-sans: var(--font-inter);
 }
 
+/* Token dari design.md — jangan diubah sepihak, samakan dengan dokumen itu. */
+@theme {
+  --color-primary: #f9b129;
+  --color-primary-accent: #f9b000;
+  --color-primary-light: #fccd75;
+  --color-primary-subtle: #fff6e5;
+  --color-accent-red: #b0061c;
+  --color-accent-blue: #2096f3;
+  --color-ink: #333333;
+  --color-ink-strong: #1a1a1a;
+  --color-ink-muted: #666666;
+  --color-border: #ebecf2;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f5f5f5;
+
+  --radius-card: 12px;
+  --radius-panel: 16px;
+  --radius-hero: 20px;
+  --radius-pill: 999px;
+  /* 26px = radius tombol CTA "Daftar" di unpad.ac.id (.daftar a). */
+  --radius-cta: 26px;
+
+  /* Header kaca unpad.ac.id: rgba(255,255,255,.22) + blur(16.291px). */
+  --color-glass: rgb(255 255 255 / 0.22);
+
+  --shadow-card: 0 10px 30px rgb(0 0 0 / 0.1);
+  --shadow-header: 0 0 30px rgb(0 0 0 / 0.07);
+
+  /* Tambahan di luar design.md: palet seri data, diambil dari mockup Figma. */
+  --color-series-1: #e3c744;
+  --color-series-2: #efe08f;
+  --color-series-3: #ec8f63;
+  --color-series-4: #bfa73c;
+  /* Merah "Ditolak" pada Dashboard PMB; beda dari --color-accent-red. */
+  --color-danger: #d64045;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
